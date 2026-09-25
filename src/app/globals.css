@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-:root { --ink: #17201d; --ink-soft: #4e5d57; --paper: #f5f5ef; --paper-bright: #fbfbf7; --line: #dce0d7; --lime: #c5f269; --lime-deep: #93c940; --coral: #f17b62; --display: var(--font-display), sans-serif; --body: var(--font-body), sans-serif; }
+:root { --ink: #17201d; --ink-soft: #4e5d57; --paper: #d0e3d0; --paper-bright: #fbfbf7; --line: #dce0d7; --lime: #c5f269; --lime-deep: #93c940; --coral: #f17b62; --display: var(--font-display), sans-serif; --body: var(--font-body), sans-serif; }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--body); -webkit-font-smoothing: antialiased; }
