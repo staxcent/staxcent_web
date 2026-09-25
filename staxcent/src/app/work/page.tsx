@@ -1,0 +1,9 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import SiteFooter from "@/src/components/site-footer";
+import SiteHeader from "@/src/components/site-header";
+
+export const metadata: Metadata = { title: "Work", description: "A selection of product directions Staxcent can help bring to life." };
+const projects = [["Project Alpha", "Operations platform", "A calmer command center for teams managing complex work.", "SaaS"], ["Nexus Dashboard", "Analytics workspace", "Clearer signals for people making decisions at speed.", "Web application"], ["FlowCommerce", "Commerce experience", "A considered storefront and the systems behind it.", "E-commerce"], ["CoreSuite", "Business software", "One dependable home for a distributed workflow.", "Custom software"]];
+
+export default function WorkPage() { return <><SiteHeader /><main><section className="page-hero"><div className="container"><span className="eyebrow">Selected work</span><h1>Useful things, made visible.</h1><p>These are representative project directions, intentionally presented as replaceable placeholders until there is real client work to feature.</p></div></section><section className="section"><div className="container"><div className="services-grid">{projects.map(([name, category, description, type], index) => <article className="service-card" key={name}><span className="service-number">0{index + 1} / {type}</span><h3>{name}</h3><p>{description}</p><Link className="button-secondary" href="/contact">Discuss a similar project <span aria-hidden="true">→</span></Link><small style={{ display: "block", marginTop: 26, color: "#879289" }}>{category}</small></article>)}</div></div></section></main><SiteFooter /></>; }
