@@ -7,7 +7,7 @@ export default function SiteFooter() {
       <div className="container">
         <div className="footer-top">
           <div>
-            <Link className="logo" href="/"><Image src="/long_logo_tr.png" alt="Staxcent logo" width={145} height={32} priority /></Link>
+            <Link className="logo" href="/"><Image src="/long_logo_tr2.png" alt="Staxcent logo" width={145} height={32} priority /></Link>
             <p className="footer-description">Digital products for teams doing meaningful work. Built with care, clarity, and room to grow.</p>
           </div>
           <div><p className="footer-label">Explore</p><nav className="footer-links" aria-label="Footer navigation"><Link href="/services">Services</Link><Link href="/work">Work</Link><Link href="/about">About</Link><Link href="/contact">Contact</Link></nav></div>
