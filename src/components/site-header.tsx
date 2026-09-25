@@ -13,7 +13,7 @@ export default function SiteHeader() {
     <header className="site-header">
       <div className="nav-wrap">
         <Link className="logo" href="/" aria-label="Staxcent home">
-          <Image src="/long_logo_tr.png" alt="Staxcent logo" width={145} height={32} priority />
+          <Image src="/long_logo_tr2.png" alt="Staxcent logo" width={145} height={32} priority />
         </Link>
         <nav className="nav-links" aria-label="Primary navigation">
           {links.map(([label, href]) => <Link key={href} href={href}>{label}</Link>)}
