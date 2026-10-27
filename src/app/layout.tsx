@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className={`${dmSans.variable} ${spaceGrotesk.variable}`}>
+    <html lang="en" data-scroll-behavior="smooth" className={`${dmSans.variable} ${spaceGrotesk.variable}`}>
       <body><a className="skip-link" href="#main">Skip to content</a>{children}</body>
     </html>
   );
